@@ -4,10 +4,16 @@
 
 ## Who's Speaking
 
-- YHR
-- FKY
+---
 
-<!-- 可以弄个头像 -->
+|![](https://avatars0.githubusercontent.com/u/25377854?s=80&v=4)  <!-- .element height="50%" width="50%" -->|![](https://avatars1.githubusercontent.com/u/16451516?s=460&v=4) <!-- .element height="50%" width="50%" -->|
+|:-:|:-:|
+|YHR|FKY|
+
+---
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
+
 
 ---
 
@@ -37,8 +43,14 @@ print("Hi, Cloud Ladder!")
 ## MileStone
 
 
-time + action
-
+```plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
 
 TODO
 
@@ -140,7 +152,7 @@ code repo
 
 --
 
-语法最初的设计是计老师完成的，他要求变量声明时类型要放在变量名前面、用大括号表示代码块。我们在其上做了些补充，比如if-elif-else、以换行符结尾等。最后的语法类似于java和kotlin的合体，因此我们以java的EBNF描述为底，删除了很多不必要的语法（如类的定义），结合了一部分kotlin语法。匿名函数的写法由F补充，推测来自ruby？
+语法最初的设计是计老师完成的，他要求变量声明时类型要放在变量名前面、用大括号表示代码块。我们在其上做了些补充，比如if-elif-else、以换行符结尾等。最后的语法类似于java和kotlin的合体，因此我们以java的EBNF描述为底，删除了很多不必要的语法（如类的定义），结合了一部分kotlin语法。匿名函数的写法由F补充，来自 Rust（Rust 借鉴的 Haskell 和 SML）。
 
 --
 
@@ -149,9 +161,11 @@ code repo
 --
 
 - 使用 Visiter
+- 尽量提供代码复用的支持
+- 为了传递更多的信息，AST 节点指向 ParserContext 节点
 
 ```mermaid
-A->B
+todo: 表示类关系的设计
 ```
 
 --
@@ -173,7 +187,32 @@ A->B
 
 --
 
+IR 最早来自于龙书上的示例，但是龙书的例子比较简单。我们在原有的基础上为 AST 节点
+增加了可复用的代码，然后定义了 IR。
+
+在这一步，AST 和 IR 是非对称的映射。
+
+--
+
+为了给后续的执行提供支持，IR 的设计还需要考虑到：
+
+- 如何使用标签解决跳转问题
+- 如何传递标签
+- 如何获得下一个执行语句
+- 如何记录额外信息
+
+--
+
 ## Interpreter
+
+--
+
+Interpreter 的难点主要在于设计运行时的环境。比如：
+
+- 数据结构如何存储
+- 函数和变量的调用栈如何设计
+- 如何满足 break 这种需要弹出多个栈元素的 IR
+- 如何内嵌 Java 代码
 
 ---
 

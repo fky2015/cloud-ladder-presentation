@@ -42,7 +42,7 @@ export default {
           condition: function() {
             return !!document.body.classList;
           }
-        }
+        },
         // ...
       ],
       keyboard: {
@@ -56,7 +56,8 @@ export default {
         84: function() {
           Recorder.fetchTTS();
         } // press 't' to fetch TTS audio files
-      }
+      },
+
     });
     window.Reveal = deck;
   }
@@ -68,13 +69,26 @@ export default {
 @import "../node_modules/reveal.js/dist/theme/solarized.css";
 @import "../node_modules/reveal.js/plugin/highlight/zenburn.css";
 
+.reveal {
+  font-size: 24px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin-bottom: 40px;
+}
+
 .reveal section p {
     font-weight: bold !important;
-    font-size: 0.7em !important;
+    /* font-size: 0.7em !important; */
 }
 
 .reveal section pre code {
-    font-size: 0.7em !important;
+    /* font-size: 0.7em !important; */
 }
 
 /*#app {*/

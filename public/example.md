@@ -19,7 +19,12 @@
 
 ## 提纲
 
-[TOC]
+- 我们目前的成果
+- 什么是 Cloud Ladder
+- Cloud Ladder 语言设计
+- Cloud Ladder 语言实现
+
+> 内容以分享经验心得为主
 
 ---
 
@@ -115,31 +120,37 @@ print("Hi, Cloud Ladder!")
 
 ---
 
-## Programming Language Design
+## Cloud Ladder 语言设计
 
 --
 
-## Why use strong and static type
+## 为什么使用静态强类型的类型设计
 
 --
 
-## for loop
+## For 循环
 
 --
 
-## type system
+## 类型系统
+
+- 简单
+- 正交
+- 可扩展
+  - 组合
+  - 继承
 
 --
 
-## null type
+## `NULL` 类型 
 
 --
 
-## Inherit vs Interface
+## 继承与接口的考量
 
 --
 
-## `variable.func()` sugar syntax
+## `variable.func()` 语法糖
 
 --
 
@@ -151,19 +162,20 @@ print("Hi, Cloud Ladder!")
 
 --
 
-## default return
+## 默认返回
 
 函数中没有return，返回最后一句表达式的返回值
 那for/if呢？？
 
 --
 
-## remove  useless ()
+## 去除多余的 `()`
+
 因为Cloud Ladder从最初起就规定了使用大括号表示代码块，所以if/for/while等语句的条件部分必定紧跟着`{`，在其中再加一层小括号实属多余，所以我们删去了多余的括号。
 
 ---
 
-## Programming Language Implementation
+## Cloud Ladder 语言实现
 
 --
 

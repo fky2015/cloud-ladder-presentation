@@ -1,5 +1,7 @@
 # Current State of Cloud Ladder
 
+[github.com/BIT-SYS/cloud-ladder](https://github.com/BIT-SYS/cloud-ladder)
+
 ---
 
 ## 我们是谁
@@ -12,11 +14,6 @@
 
 ---
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
-
-
----
-
 ## 提纲
 
 - 我们目前的成果
@@ -24,7 +21,7 @@
 - Cloud Ladder 语言设计
 - Cloud Ladder 语言实现
 
-> 内容以分享经验心得为主
+*内容以分享经验心得为主*
 
 ---
 
@@ -302,3 +299,7 @@ IR 最早来自于龙书上的示例，但是龙书的例子比较简单。我�
 
 - 感谢计卫星老师这个学期以来对我们提供的支持和帮助
 - 感谢可靠的队友
+
+---
+
+## 参考资料

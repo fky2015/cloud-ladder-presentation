@@ -23,7 +23,9 @@ export default {
       plugins: [Markdown, Highlight]
     });
     deck.initialize({
-    navigationMode: "linear",
+      hash: true,
+      slideNumber: 'c/t' ,
+      navigationMode: "linear",
       dependencies: [
         // ...
         {
@@ -67,7 +69,7 @@ export default {
 
 <style>
 @import "../node_modules/reveal.js/dist/reveal.css";
-@import "../node_modules/reveal.js/dist/theme/solarized.css";
+@import "../node_modules/reveal.js/dist/theme/serif.css";
 @import "../node_modules/reveal.js/plugin/highlight/zenburn.css";
 
 .reveal {

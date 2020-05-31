@@ -86,7 +86,6 @@ export default {
 }
 
 .reveal section p {
-    font-weight: bold !important;
     /* font-size: 0.7em !important; */
 }
 

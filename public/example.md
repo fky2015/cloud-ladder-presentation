@@ -191,7 +191,7 @@ print("Hi, Cloud Ladder!")
   - and does not allow fine grain control over which part of the superclass interface is inherited.
 
 > Inheritance describes an is-a relationship.
-Implementing an interface describes a can-do relationship.
+<br> Implementing an interface describes a can-do relationship.
 
 --
 
@@ -240,9 +240,7 @@ Implementing an interface describes a can-do relationship.
 - 尽量提供代码复用的支持
 - 为了传递更多的信息，AST 节点指向 ParserContext 节点
 
-```mermaid
-todo: 表示类关系的设计
-```
+<img class="r-stretch" src="./img/ast.svg" >
 
 --
 

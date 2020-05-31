@@ -303,3 +303,16 @@ IR 最早来自于龙书上的示例，但是龙书的例子比较简单。我�
 ---
 
 ## 参考资料
+
+[编译原理 / Alfred V. Aho 等 / 机械工业出版社](https://book.douban.com/subject/3296317/)
+
+[ANTLR 4 权威指南 / Terence Parr / 机械工业出版社](https://book.douban.com/subject/27082372/)
+
+[编程语言设计模式 / Terence Parr / 华中科技大学出版社](https://book.douban.com/subject/10482195/)
+
+[Crafting Interpreters / Bob Nystrom](https://craftinginterpreters.com/)
+
+[Java 的 ANTLR 4 语法描述](https://github.com/antlr/grammars-v4/tree/master/java/java)
+
+[Kotlin 语法描述](https://kotlinlang.org/docs/reference/grammar.html)
+

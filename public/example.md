@@ -2,6 +2,13 @@
 
 [github.com/BIT-SYS/cloud-ladder](https://github.com/BIT-SYS/cloud-ladder)
 
+
+---
+
+
+<img class="r-stretch" src="./img/logo_transparent.png" >
+
+
 ---
 
 ## 我们是谁

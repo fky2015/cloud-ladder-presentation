@@ -23,6 +23,7 @@ export default {
       plugins: [Markdown, Highlight]
     });
     deck.initialize({
+    navigationMode: "linear",
       dependencies: [
         // ...
         {

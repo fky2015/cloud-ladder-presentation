@@ -93,6 +93,10 @@ export default {
     /* font-size: 0.7em !important; */
 }
 
+.reveal a {
+  color: #a1483d;
+}
+
 /*#app {*/
 /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
 /*-webkit-font-smoothing: antialiased;*/

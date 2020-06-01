@@ -2,6 +2,10 @@
 
 [github.com/BIT-SYS/cloud-ladder](https://github.com/BIT-SYS/cloud-ladder)
 
+<br />
+<br />
+
+*👇部分 Slide 下方有提供详细信息的音频*
 
 ---
 

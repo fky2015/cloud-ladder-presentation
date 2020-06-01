@@ -24,7 +24,7 @@ export default {
     });
     deck.initialize({
       hash: true,
-      slideNumber: 'c/t' ,
+      slideNumber: 'c/v' ,
       navigationMode: "linear",
       dependencies: [
         // ...

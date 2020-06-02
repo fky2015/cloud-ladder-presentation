@@ -5,7 +5,7 @@
 <br />
 <br />
 
-*👇部分 Slide 下方有提供详细信息的音频*
+*👇部分 Slide 下方有提供详细讲解的音频🔈*
 
 ---
 
@@ -67,6 +67,7 @@ print("Hi, Cloud Ladder!")
 - 五月二十一日：加入 AI 的调用。
 - 五月二十三日：结束 alpha 版本工作。
 
+*👇Slide 下方有提供详细讲解的音频🔈*
 --
 
 ## Cloud Ladder 目前支持什么功能
@@ -98,6 +99,8 @@ print("Hi, Cloud Ladder!")
 - 面向教学
 - GPL-3.0 许可证
 
+*👇Slide 下方有提供详细讲解的音频🔈*
+
 --
 
 ## 架构
@@ -108,6 +111,8 @@ print("Hi, Cloud Ladder!")
 - 基于 ANTLR4
 - 基于 Java
 - 基于 Gradle 进行构建
+
+*👇Slide 下方有提供详细讲解的音频🔈*
 
 ---
 
@@ -134,15 +139,44 @@ print("Hi, Cloud Ladder!")
 
 ## 为什么使用静态强类型的类型设计
 
-- 强类型 
-    - 更加可读的代码，无歧义的行为
-        - 反例：JS, C
-- 静态类型
-    - 提供更多编译期检查和优化的可能
-        - 比如 TypeScript、Rust、Python type hint
-    - 提供类型推导的可能
-        - 通过语言插件大幅提高编程体验
+<div class="container">
+  <div class="col">
+    <ul>
+      <li>强类型 <ul>
+        <li>更加可读的代码，无歧义的行为<ul>
+        <li>反例：JS, C</li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+      <li>静态类型<ul>
+        <li>提供更多编译期检查和优化的可能<ul>
+          <li>比如 TypeScript、Rust、Python type hint</li>
+          </ul>
+        </li>
+        <li>提供类型推导的可能<ul>
+          <li>通过语言插件大幅提高编程体验</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
+<div class="col">
+  <img src="./img/type.jpg" alt="type">
+</div>
+<style>
+.container {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+</style>
+
+*👇Slide 下方有提供详细讲解的音频🔈*
 
 --
 
@@ -153,6 +187,7 @@ print("Hi, Cloud Ladder!")
 - 后续可以支持迭代器
     - 比如 Python List Comprehension、Java Stream
 
+*👇Slide 下方有提供详细讲解的音频🔈*
 
 --
 
@@ -163,6 +198,16 @@ print("Hi, Cloud Ladder!")
 - 可扩展
   - 组合
   - 继承
+
+```
+Number, String, Boolean
+List, HashMap
+Audio, Image, Video
+[enum], [struct]
+```
+
+*👇Slide 下方有提供详细讲解的音频🔈*
+
 
 --
 
@@ -181,6 +226,8 @@ print("Hi, Cloud Ladder!")
 - 希望通过类型系统绕过 void 这个坑
 - 但是目前只能采用鸵鸟方法
 
+*👇Slide 下方有提供详细讲解的音频🔈*
+
 
 --
 
@@ -196,6 +243,8 @@ print("Hi, Cloud Ladder!")
 
 > Inheritance describes an is-a relationship.
 <br> Implementing an interface describes a can-do relationship.
+
+*👇Slide 下方有提供详细讲解的音频🔈*
 
 --
 
@@ -247,9 +296,12 @@ Cloud Ladder 从最初起就规定了使用大括号表示代码块，if/for/whi
 
 - 使用 Visiter
 - 尽量提供代码复用的支持
-- 为了传递更多的信息，AST 节点指向 ParserContext 节点
+- 为了传递更多的信息，AST 节点指向 ParserRuleContext 节点
 
 <img class="r-stretch" src="./img/ast.svg" >
+
+*👇Slide 下方有提供详细讲解的音频🔈*
+
 
 --
 

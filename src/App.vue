@@ -97,6 +97,12 @@ export default {
   color: #a1483d;
 }
 
+ul,ol {
+  padding-inline-start: 20px;
+  margin-left: 20px !important;
+}
+
+
 /*#app {*/
 /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
 /*-webkit-font-smoothing: antialiased;*/

@@ -68,6 +68,7 @@ print("Hi, Cloud Ladder!")
 - 五月二十三日：结束 alpha 版本工作。
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 --
@@ -102,6 +103,7 @@ print("Hi, Cloud Ladder!")
 - GPL-3.0 许可证
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 --
@@ -116,6 +118,7 @@ print("Hi, Cloud Ladder!")
 - 基于 Gradle 进行构建
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 ---
@@ -182,6 +185,7 @@ print("Hi, Cloud Ladder!")
 </style>
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 --
@@ -194,6 +198,7 @@ print("Hi, Cloud Ladder!")
     - 比如 Python List Comprehension、Java Stream
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 --
@@ -214,6 +219,7 @@ Audio, Image, Video
 ```
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 
@@ -235,6 +241,7 @@ Audio, Image, Video
 - 但是目前只能采用鸵鸟方法
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 
@@ -254,6 +261,7 @@ Audio, Image, Video
 <br> Implementing an interface describes a can-do relationship.
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 --
@@ -311,6 +319,7 @@ Cloud Ladder 从最初起就规定了使用大括号表示代码块，if/for/whi
 <img class="r-stretch" src="./img/ast.svg" >
 
 <br/>
+
 *👇Slide 下方有提供详细讲解的音频🔈*
 
 

@@ -125,6 +125,8 @@ print("Hi, Cloud Ladder!")
 
 ## 快速上手
 
+<iframe src="https://onedrive.live.com/embed?cid=C71C65A26DDCE6F9&resid=C71C65A26DDCE6F9%21173990&authkey=AJf8dh3mAEZYiJI" width="320" height="180" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 --
 
 ## 代码仓库都包含什么？

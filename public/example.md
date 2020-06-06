@@ -126,7 +126,7 @@ print("Hi, Cloud Ladder!")
 ## 快速上手
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 80%; height: 80%; left: 10%; top: 10%;" src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="position: absolute; width: 80%; height: 80%; left: 10%; top: 10%;" src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 --
@@ -134,7 +134,7 @@ print("Hi, Cloud Ladder!")
 ## 代码仓库都包含什么？
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 80%; height: 80%; left: 10%; top: 10%;" src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe style="position: absolute; width: 80%; height: 80%; left: 10%; top: 10%;" src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=2&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
 ---

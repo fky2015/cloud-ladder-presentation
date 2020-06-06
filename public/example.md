@@ -125,13 +125,13 @@ print("Hi, Cloud Ladder!")
 
 ## 快速上手
 
-<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=d0769c60754cdadbae267e92dd3be4b4_d'></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 --
 
 ## 代码仓库都包含什么？
 
-<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=d0769c6075280dcb2b80aa0baee7ec37_d'></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=838395942&bvid=BV1vg4y1i7ZV&cid=199191402&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ---
 

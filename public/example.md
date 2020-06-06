@@ -125,20 +125,13 @@ print("Hi, Cloud Ladder!")
 
 ## 快速上手
 
-<iframe src="https://onedrive.live.com/embed?cid=C71C65A26DDCE6F9&resid=C71C65A26DDCE6F9%21173990&authkey=AJf8dh3mAEZYiJI" width="320" height="180" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=d0769c60754cdadbae267e92dd3be4b4_d'></iframe>
 
 --
 
 ## 代码仓库都包含什么？
 
-- 目录结构
-- 持续集成（CI）
-
---
-
-- 运行代码
-- 使用 Gradle 进行单元测试
-- 生成调试信息
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=d0769c6075280dcb2b80aa0baee7ec37_d'></iframe>
 
 ---
 

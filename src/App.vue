@@ -26,6 +26,9 @@ export default {
       hash: true,
       slideNumber: 'c/v' ,
       navigationMode: "linear",
+      audio: {
+        autoplay: true,
+      },
       dependencies: [
         // ...
         {
